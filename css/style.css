@@ -186,11 +186,29 @@ body {
     margin: 20px;
   }
 
-  .card-item {
+  .card-item-top {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 40px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+  }
+
+  .card-item-top h4 {
+    margin-top: 20px;
+  }
+
+  .card-item-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 15px;
+    gap: 15px;
+  }
+
+  .card-item-bottom svg {
+    fill: black
   }
 
 
