@@ -16,10 +16,18 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/*
+  Layout container
+*/
+
 .container {
     display: grid;
     grid-template-columns: 17% 83%;
   }
+
+  /*
+    Navigation sidebar
+  */
 
   .sidebar {
     background-color: hsl(199, 89%, 48%);
@@ -59,6 +67,10 @@ body {
     margin: 60px 0;
   }
 
+  /* 
+    Main Content 
+  */
+
   .main {
     display: grid;
     grid-template-rows: 30% 70%;
@@ -67,7 +79,21 @@ body {
   }
 
   .header {
+    display: flex;
+    flex-direction: column;
     background-color: hsl(0, 0%, 100%);
+  }
+
+  .navbar {
+    
+  }
+
+  .navbar svg {
+    fill: hsl(0, 0%, 0%);
+  }
+
+  .welcome {
+
   }
 
   .content {
