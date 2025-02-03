@@ -8,6 +8,11 @@
     min-height: 100vh;
   }
 
+  .logo-text {
+    display: flex;
+    flex-direction: ;
+  }
+
   .main {
     background-color: white;
     min-height: 100vh;
