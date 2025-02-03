@@ -27,9 +27,12 @@
     align-items: center;
     gap: 12px;
     margin: 10px 60px;
-    font-size: 2rem;
     font-weight: bolder;
     border: 1px solid red;
+  }
+
+  .icon-text p {
+    font-size: 2rem;
   }
 
   .main {
