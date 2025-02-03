@@ -18,7 +18,7 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 17% 83%;
   }
 
   .sidebar {
@@ -30,12 +30,15 @@ body {
   .logo-text {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 10px;
-    margin: 20px 0;
-    font-size: 1.5rem;
-    font-weight: bold;
+    margin: 20px 20px 0;
+  }
+
+  .logo-text h1 {
+    font-size: 2rem;
+    font-weight: 900;
   }
 
   .icon-text {
@@ -43,13 +46,13 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    gap: 12px;
-    margin: 10px 60px;
-    font-weight: bolder;
+    gap: 24px;
+    margin: 17px 27px;
   }
 
   .icon-text p {
-    font-size: 2rem;
+    font-size: 1.2rem;
+    font-weight: 800;
   }
 
   .list-items-bottom {
