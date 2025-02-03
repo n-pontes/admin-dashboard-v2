@@ -152,3 +152,17 @@ body {
   svg {
     fill: hsl(0, 0%, 100%);
   }
+
+  .btn {
+    all: unset;
+    background-color: hsl(199, 89%, 48%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 800;
+    border-radius: 50px;
+    height: 40px;
+    width: 100px;
+
+  }
