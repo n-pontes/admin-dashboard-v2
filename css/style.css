@@ -5,9 +5,10 @@
 
   .sidebar {
     background-color: #0EA5E9;
-    height: 100vh;
+    min-height: 100vh;
   }
 
   .main {
     background-color: white;
+    min-height: 100vh;
   }
