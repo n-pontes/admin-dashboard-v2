@@ -182,7 +182,8 @@ body {
     border-left: 8px solid rgb(255, 187, 0);
   }
 
-  .title {
+  .title > h3 {
+    font-weight: 600;
     margin: 20px;
   }
 
@@ -195,7 +196,8 @@ body {
     margin-left: 15px;
   }
 
-  .card-item-top h4 {
+  .card-item-top > h4 {
+    font-weight: 800;
     margin-top: 20px;
   }
 
