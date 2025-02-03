@@ -1,49 +1,54 @@
-/* 1. Use a more-intuitive box-sizing model */
+/* Because the default box-sizing is stupid... */
 *, *::before, *::after {
-    box-sizing: border-box;
-  }
-  
-  /* 2. Remove default margin */
-  * {
-    margin: 0;
-  }
-  
-  body {
-    /* 3. Add accessible line-height */
-    line-height: 1.5;
-    /* 4. Improve text rendering */
-    -webkit-font-smoothing: antialiased;
-  }
-  
-  /* 5. Improve media defaults */
-  img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-  }
-  
-  /* 6. Inherit fonts for form controls */
-  input, button, textarea, select {
-    font: inherit;
-  }
-  
-  /* 7. Avoid text overflows */
-  p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
-  }
-  
-  /* 8. Improve line wrapping */
-  p {
-    text-wrap: pretty;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    text-wrap: balance;
-  }
-  
-  /*
-    9. Create a root stacking context
-  */
-  #root, #__next {
-    isolation: isolate;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+/* #root and #__next cover my usual frameworks - Optional if you arent using one! */
+html, body, #root, #__next {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  /* Optional but I like to apply a base font always */
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; 
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+/* Stop long words causing overflow */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 30% 70%;
   }
 
-  
+  .sidebar {
+    background-color: #0EA5E9;
+  }
+
+  .main {
+    background-color: white;
+  }
