@@ -85,7 +85,11 @@ body {
   }
 
   .navbar {
-
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 14px 20px;
   }
 
   img {
@@ -93,8 +97,23 @@ body {
     height: 50px;
   }
 
+  .form-input {
+    width: 600px;
+    border-radius: 50px;
+    background-color: hsl(240, 5%, 84%);
+    height: 27px;
+    border: 0;
+    margin-left: -100px;
+    margin-right: 250px;
+  }
+
   .navbar svg {
     fill: hsl(0, 0%, 0%);
+  }
+
+  .navbarAvatar {
+    margin-right: -100px;    
+    margin-left: -100px;
   }
 
   .welcome {
@@ -102,7 +121,7 @@ body {
   }
 
   .content {
-    background-color: #F4F4F5;
+    background-color: hsl(240, 5%, 84%);
   }
 
   svg {
