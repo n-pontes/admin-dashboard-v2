@@ -4,8 +4,9 @@
   }
 
   .sidebar {
-    background-color: #0EA5E9;
+    background-color: hsl(199, 89%, 48%);
     min-height: 100vh;
+    color: hsl(0, 0%, 100%);
   }
 
   .logo-text {
@@ -16,6 +17,6 @@
   }
 
   .main {
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
     min-height: 100vh;
   }
