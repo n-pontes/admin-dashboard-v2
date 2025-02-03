@@ -10,7 +10,9 @@
 
   .logo-text {
     display: flex;
-    flex-direction: ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 
   .main {
