@@ -117,7 +117,20 @@ body {
   }
 
   .welcome {
+  }
 
+  .welcomeAvatar {
+    width: 75px;
+    height: 75px;
+
+  }
+
+  .left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 40px;
+    margin-left: 80px;
   }
 
   .content {
