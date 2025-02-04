@@ -75,7 +75,7 @@ body {
     display: grid;
     grid-template-rows: 24% 76%;
     background-color: hsl(0, 0%, 100%);
-    min-height: 100vh;
+    height: 100vh;
   }
 
   .header {
