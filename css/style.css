@@ -173,16 +173,6 @@ body {
     background-color: hsl(240, 5%, 84%);
   }
 
-  .aannouncements {
-    grid-column: 3 / 4;
-    grid-row: 1 / 2;
-  }
-
-.trending {
-    grid-column: 3 / 4;
-    grid-row: 2 / 3;
-  }
-
   .article-right {
     margin-top: 40px;
     margin-left: -100px;
