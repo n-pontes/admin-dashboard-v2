@@ -177,7 +177,6 @@ body {
 
   .article-right {
     margin-top: 40px;
-    margin-left: -100px;
   }
 
   .announce {
@@ -260,10 +259,3 @@ body {
   .card-item-bottom svg {
     fill: black
   }
-
-
-  /*footer {
-    grid-column: -2 / -1;
-    background-color: black;
-    color: white;
-  }*/
