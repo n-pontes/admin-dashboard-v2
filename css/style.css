@@ -197,6 +197,27 @@ body {
     font-weight: 600;
   }
 
+  .title-trending {
+    margin-top: 150px;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+  }
+
+.trending-card {
+  margin-top: -50px;
+  background-color: white;
+  width: 300px;
+  height: 150px;
+  grid-row: 3 / 4;
+  grid-column: 3 / 4;
+  border-radius: 10px;
+}
+
+  .title-trending h3 {
+    font-weight: 600;
+  }
+
+
   .small-card {
     display: flex;
     flex-direction: column;
