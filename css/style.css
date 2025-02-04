@@ -171,8 +171,7 @@ body {
 
   .content {
     display: grid;
-    grid-template-columns: 30% 30% 40%;
-    grid-template-rows: 30% 30% 30%;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     background-color: hsl(240, 5%, 84%);
   }
 
@@ -196,27 +195,6 @@ body {
   .title-announce h3 {
     font-weight: 600;
   }
-
-  .title-trending {
-    margin-top: 150px;
-    grid-column: 3 / 4;
-    grid-row: 2 / 3;
-  }
-
-.trending-card {
-  margin-top: -50px;
-  background-color: white;
-  width: 300px;
-  height: 150px;
-  grid-row: 3 / 4;
-  grid-column: 3 / 4;
-  border-radius: 10px;
-}
-
-  .title-trending h3 {
-    font-weight: 600;
-  }
-
 
   .small-card {
     display: flex;
