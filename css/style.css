@@ -82,6 +82,9 @@ body {
     display: flex;
     flex-direction: column;
     background-color: hsl(0, 0%, 100%);
+    position: relative;
+    z-index: 10;
+    box-shadow: 1px 11px 12px -16px rgba(74,74,74,0.41);
   }
 
   .navbar {
@@ -206,6 +209,7 @@ body {
     background-color: rgb(255, 255, 255);
     height: 300px;
     width: 300px;
+    box-shadow: 1px 11px 12px -16px rgba(74,74,74,0.41);
   }
 
   .small-card > h4 {
@@ -224,6 +228,7 @@ body {
     height: 170px;
     border-radius: 10px;
     border-left: 8px solid rgb(255, 187, 0);
+    box-shadow: 1px 11px 12px -16px rgba(74,74,74,0.41);
   }
 
   .title > h3 {
