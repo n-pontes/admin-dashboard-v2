@@ -201,6 +201,10 @@ body {
     margin-top: 50%;
   }
 
+  .title-trending h3 {
+    font-weight: 600;
+  }
+
   .small-card {
     display: flex;
     flex-direction: column;
