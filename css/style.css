@@ -1,7 +1,12 @@
 :root {
   --main-element-color: hsl(0, 0%, 100%);
-  --main-background-color: hsl(0, 0%, 100%);
+  --main-background-color:hsl(240, 5%, 84%);
   --button-sidebar-color: hsl(199, 89%, 48%);
+  --box-shadow-properties: 1px 11px 12px -16px hsla(0, 0%, 29%, 0.41);
+  --card-svg-black-color: hsl(0, 0%, 0%);
+  --card-svg-white-color: hsl(0, 0%, 100%);
+  --card-border-color: hsl(0, 0%, 85%);
+  --project-card-border-color: hsl(44, 100%, 50%);
 }
 
 
@@ -39,7 +44,7 @@ body {
   .sidebar {
     background-color: var(--button-sidebar-color);
     min-height: 100vh;
-    color: var(--main-elements-colors);
+    color: var(--main-element-color);
   }
 
   .logo-text {
@@ -91,7 +96,7 @@ body {
     background-color: var(--main-element-color);
     position: relative;
     z-index: 10;
-    box-shadow: 1px 11px 12px -16px rgba(74,74,74,0.41);
+    box-shadow: var(--box-shadow-properties);
   }
 
   .navbar {
@@ -110,7 +115,7 @@ body {
   .form-input {
     width: 600px;
     border-radius: 50px;
-    background-color: hsl(240, 5%, 84%);
+    background-color: var(--main-background-color);
     height: 27px;
     border: 0;
     margin-left: -100px;
@@ -118,7 +123,7 @@ body {
   }
 
   .navbar svg {
-    fill: hsl(0, 0%, 0%);
+    fill: var(--card-svg-black-color);
   }
 
   .navbarAvatar {
@@ -156,13 +161,13 @@ body {
   }
 
   svg {
-    fill: hsl(0, 0%, 100%);
+    fill: var(--card-svg-white-color);
   }
 
   .btn {
     all: unset;
-    background-color: hsl(199, 89%, 48%);
-    color: hsl(0, 0%, 100%);
+    background-color: var(--button-sidebar-color);
+    color: var(--main-element-color);
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -179,7 +184,7 @@ body {
   .content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    background-color: hsl(240, 5%, 84%);
+    background-color: var(--main-background-color);
   }
 
   .article-right {
@@ -246,7 +251,7 @@ body {
     height: 180px;
     width: 300px;
     border-radius: 10px;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--main-element-color);
     grid-row: 1 / 2;
     grid-column: 3 / 5;
     margin-top: 55%
@@ -261,10 +266,10 @@ body {
     font-size: 14px;
     margin-top: 3em;
     border-radius: 10px;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--main-element-color);
     height: 300px;
     width: 300px;
-    box-shadow: 1px 11px 12px -16px rgba(74,74,74,0.41);
+    box-shadow: var(--box-shadow-properties);
   }
 
   .small-card > h4 {
@@ -272,18 +277,18 @@ body {
   }
 
   .line {
-    border: 0.5px solid rgb(218, 218, 218);
+    border: 0.5px solid var(--card-border-color);
   }
   
 
   .card {
-    background-color: white;
+    background-color: var(--main-element-color);
     margin-left: 20px;
     width: 320px;
     height: 170px;
     border-radius: 10px;
-    border-left: 8px solid rgb(255, 187, 0);
-    box-shadow: 1px 11px 12px -16px rgba(74,74,74,0.41);
+    border-left: 8px solid var(--project-card-border-color);
+    box-shadow: 1px 11px 12px -16px var(--box-shadow-properties);
   }
 
   .title > h3 {
@@ -314,5 +319,5 @@ body {
   }
 
   .card-item-bottom svg {
-    fill: black
+    fill: var(--card-svg-black-color);
   }
