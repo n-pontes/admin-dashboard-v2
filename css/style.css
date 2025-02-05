@@ -195,6 +195,12 @@ body {
     font-weight: 600;
   }
 
+  .title-trending {
+    grid-row: 1 / 2;
+    grid-column: 3 / 5;
+    margin-top: 50%;
+  }
+
   .small-card {
     display: flex;
     flex-direction: column;
