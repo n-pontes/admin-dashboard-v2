@@ -205,6 +205,12 @@ body {
     font-weight: 600;
   }
 
+  .t-card {
+    grid-row: 1 / 2;
+    grid-column: 3 / 5;
+    margin-top: 55%
+  }
+
   .small-card {
     display: flex;
     flex-direction: column;
