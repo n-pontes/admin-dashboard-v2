@@ -205,6 +205,25 @@ body {
     font-weight: 600;
   }
 
+  .trending-icons {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px;
+  }
+
+  .t-icon-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .t-icon {
+    width: 30px;
+    height: 30px;
+  }
+
   .t-card {
     height: 180px;
     width: 300px;
