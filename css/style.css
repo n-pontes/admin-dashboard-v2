@@ -1,3 +1,10 @@
+:root {
+  --main-element-color: hsl(0, 0%, 100%);
+  --main-background-color: hsl(0, 0%, 100%);
+  --button-sidebar-color: hsl(199, 89%, 48%);
+}
+
+
 @font-face {
   font-family: 'Roboto';
   font-weight: 400;
@@ -30,9 +37,9 @@ body {
   */
 
   .sidebar {
-    background-color: hsl(199, 89%, 48%);
+    background-color: var(--button-sidebar-color);
     min-height: 100vh;
-    color: hsl(0, 0%, 100%);
+    color: var(--main-elements-colors);
   }
 
   .logo-text {
@@ -74,14 +81,14 @@ body {
   .main {
     display: grid;
     grid-template-rows: auto auto;
-    background-color: hsl(0, 0%, 100%);
+    background-color: var(--main-background-color);
     height: auto;
   }
 
   .header {
     display: flex;
     flex-direction: column;
-    background-color: hsl(0, 0%, 100%);
+    background-color: var(--main-element-color);
     position: relative;
     z-index: 10;
     box-shadow: 1px 11px 12px -16px rgba(74,74,74,0.41);
