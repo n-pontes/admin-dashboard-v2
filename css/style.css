@@ -197,11 +197,11 @@ body {
   }
 
   .article-right {
-    margin-top: 40px;
+    margin-top: 11%;
   }
 
   .announce {
-    margin-top: 20px;
+    margin-top: 8%;
     grid-column: 3 / 4;
     grid-row: 1 / 2;
   }
@@ -219,7 +219,7 @@ body {
   .title-trending {
     grid-row: 1 / 2;
     grid-column: 3 / 5;
-    margin-top: 50%;
+    margin-top: 51%;
   }
 
   .title-trending h3 {
@@ -257,13 +257,13 @@ body {
   }
 
   .t-card {
-    height: 180px;
+    height: 212px;
     width: 300px;
     border-radius: 10px;
     background-color: var(--main-element-color);
     grid-row: 1 / 2;
     grid-column: 3 / 5;
-    margin-top: 55%
+    margin-top: 56%
   }
 
   .small-card {
